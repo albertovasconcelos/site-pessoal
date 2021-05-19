@@ -113,6 +113,7 @@ label[for="bt_menu"] {
 }
 
 #title, .subtitle, .post_title {
+    margin-top: 10px;
     color: #505050;    
 }
 
