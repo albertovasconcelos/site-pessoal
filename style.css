@@ -157,8 +157,8 @@ label[for="bt_menu"] {
 }
 
 .footer {
-    background-color: black;
+    background-color: #111;
     color: #ffff;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
