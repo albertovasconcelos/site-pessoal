@@ -5,16 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alberto Vasconcelos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="stylesheet" href="css/gallery.min.css">
+    
 </head>
 <body>
     <header>
-            <section class="galeria">
-                <img class="foto" src="image/01.jpg"/>
-                <img class="foto" src="image/02.jpg"/>
-                <img class="foto" src="image/03.jpg"/>
-                <img class="foto" src="image/04.jpg"/>
-            </section>
+
+            <div class="gallery autoplay items-4">
+                <div id="item-1" class="control-operator"></div>
+                <div id="item-2" class="control-operator"></div>
+                <div id="item-3" class="control-operator"></div>
+                <div id="item-4" class="control-operator"></div>
+
+                <figure class="item">
+                    <h1><img src="images/01.jpg"></h1>
+                </figure>
+
+                <figure class="item">
+                    <h1><img src="images/02.jpg"></h1>
+                </figure>
+                
+                <figure class="item">
+                    <h1><img src="images/03.jpg"></h1>
+                </figure>
+
+                <figure class="item">
+                    <h1><img src="images/04.jpg"></h1>
+                </figure>
+
+                <div class="controls">
+                    <a href="#item-1" class="control-button">.</a>
+                    <a href="#item-2" class="control-button">.</a>
+                    <a href="#item-3" class="control-button">.</a>
+                    <a href="#item-4" class="control-button">.</a>
+                </div>
+
+            </div>
             
             <input type="checkbox" id="bt_menu">
             <label for="bt_menu">&#9776;</label>
@@ -45,7 +73,7 @@
         </header>
         <article class="post">
             <header>
-                <img src="post-tecnologia.jpg" alt="Imagem da postagem" class="post_image">
+                <img src="images/post-tecnologia.jpg" alt="Imagem da postagem" class="post_image">
                 <h3 class="post_title">Post #1</h3>
             </header>
             <p class="post_content">
@@ -56,18 +84,19 @@
     <footer class="footer">
         <ul class="social_networks">
             <a href="http://www.facebook.com" alt="Facebook" target="_blank">
-                <img src="image/facebook.png"></a>
+                <img src="images/facebook.png"></a>
             <a href="#!" alt="Twitter" target="_blank">
-                <img src="image/twitter.png"></a>
+                <img src="images/twitter.png"></a>
             <a href="#!" alt="LinkedIn" target="_blank">
-                <img src="image/linkedin.png"></a>
+                <img src="images/linkedin.png"></a>
             <a href="#!" alt="Instagram" target="_blank">
-                <img src="image/instagram.png"></a>
+                <img src="images/instagram.png"></a>
             <a href="https://web.whatsapp.com/send?phone=55991111112222" alt="WhatsApp" target="_blank">
-                <img src="image/whatsapp.png"></a>
+                <img src="images/whatsapp.png"></a>
 
             <p>© 2021 Todos os direitos reservados.</p>
         </ul>
     </footer>
+
 </body>
 </html>
